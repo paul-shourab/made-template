@@ -12,7 +12,7 @@ block AirportsExtractor oftype HttpExtractor {url:"https://opendata.rhein-kreis-
   block AirportsTableInterpreter oftype TableInterpreter {
       header:true;
   columns: [
-      "Lfd. Nummer" oftype decimal, 
+      "Lfd. Nummer" oftype integer, 
       "Name des Flughafens" oftype text, 
       "Ort" oftype text, 
       "Land" oftype text,
@@ -20,7 +20,7 @@ block AirportsExtractor oftype HttpExtractor {url:"https://opendata.rhein-kreis-
       "ICAO" oftype text, 
       "Latitude" oftype decimal, 
       "Longitude" oftype decimal, 
-      "Altitude" oftype decimal
+      "Altitude" oftype integer
     ];
 
     }
