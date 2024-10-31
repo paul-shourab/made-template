@@ -1,0 +1,20 @@
+pipeline CarsPipeline {
+DataExtractor
+->CarsTextFileInterpreter
+->CarsCSVInterpreter
+->CarsTableInterpreter
+->DatabaseLoader;
+    url: "https://gist.githubusercontent.com/noamross/e5d3e859aa0c794be10b/raw/b999fb4425b54c63cab088c0ce2c0d6ce961a563/cars.csv";
+block DataExtractor oftype HttpExtractor { url: ""; }
+block CarsTextFileInterpreter oftype TextFileInterpreter {}
+block CarsCSVInterpreter oftype CSVInterpreter { enclosing: '"'; }
+block CarsTableInterpreter oftype TableInterpreter {
+header: true;
+columns: [
+"" oftype text,
+"mpg" oftype decimal,
+"cyl" oftype integer,
+];
+}
+block DatabaseLoader oftype SQLiteLoader { table: "Cars"; file: "./cars.sqlite"; }
+} 
