@@ -26,3 +26,4 @@ block AirportsExtractor oftype HttpExtractor {url:"https://opendata.rhein-kreis-
     }
   block AirportsLoader oftype SQLiteLoader {table: "Airports"; file: "./airports.sqlite";}
   }
+
