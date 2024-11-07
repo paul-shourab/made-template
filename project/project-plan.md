@@ -5,7 +5,7 @@ The effects of Renewable energy to environments.
 ## Main Question
 Is the carbon footprint of Renewable energy is close to zero?
 ## Description
-Renewable energy vs Conventional energy
+
 Renewable energy is a buzzword nowadays. It is environment friendly, generating less or free carbon footprints, i.e. particularly for solar and wind power. However, it is more expensive than burning fossil fuel or conventional power plant. In this project we will find the measurement of carbon footprints of renewable energy in US. We use two different datasets of US to find our findings. 
 
 Datasources
