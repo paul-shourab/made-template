@@ -17,7 +17,7 @@ pipeline TreesPipeline {
   block TreesCSVInterpreter oftype CSVInterpreter {delimiter: ';' ;}
 
   block TreesColumnDeleter oftype ColumnDeleter {
-   delete: [column D];
+   delete: [column E];
   }
 
   valuetype Stadtteil oftype text {
