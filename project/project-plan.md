@@ -3,7 +3,7 @@
 The effects of Conventional Energy(Fossil fuels) to environments.
 
 ## Main Question
-Is the carbon footprint of the Conventional energy is close to zero?
+How much the emission of the Conventional energy and it is possible to replace Conventional Energy by Renewable Energy?
 ## Description
 
 Renewable energy is a buzzword nowadays. It is environment friendly, generating electricity wiht free carbon footprints, i.e. particularly for solar and wind power. On the other hand, conventional energy contributes the most of the share of emission(CO2, SO2, NOx,etc) in the atmosphere. In this project we will find the measurement of carbon footprints of Conventional energy in US and compare the total consumption of renewable and conventional enregy and look for a answer whether it is possible to transform US power generation completely on Renewable Energy. We use two different datasets of US to find our findings. 
